@@ -48,7 +48,7 @@ a:link {
 .subtext {
     font-size: 18px;
     color: #e5e7eb;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .button {
@@ -72,8 +72,24 @@ a:link {
     display: flex;
 }
 
+.container-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-img {
-    width: auto; 
-    max-height: 100%; 
+.title-two {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+
+.boxes {
+display: flex;
+}
+
+.info {
+    max-width: 200px;
+    padding: 1em;
 }
