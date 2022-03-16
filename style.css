@@ -1,4 +1,8 @@
-a { color: inherit; } 
+a {
+    color: inherit;
+    margin: 0;
+    padding: 0;
+} 
 
 a:link {
     text-decoration: none;
@@ -51,7 +55,7 @@ a:link {
     padding-bottom: 10px;
 }
 
-.button {
+.button-one {
     background-color: #3882f6;
     height: 30px;
     width: 100px;
@@ -77,6 +81,7 @@ a:link {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5em;
 }
 
 .title-two {
@@ -92,4 +97,80 @@ display: flex;
 .info {
     max-width: 200px;
     padding: 1em;
+}
+
+.container-three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em;
+}
+
+.qtext-one {
+    font-weight: 100;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 25em;
+    padding-bottom: 15px;
+}
+
+.qtext-two {
+    display: flex;
+    align-items: right;
+    padding-left: 40em;
+    font-weight: 700;
+}
+
+.container-four {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 50px;
+}
+
+.box-four {
+    background-color: #3882f6;
+    border-radius: 6px;
+    max-width: 100em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 10px 60px;
+}
+
+.sign-up {
+    color: white;
+    padding: 16px;
+    flex-direction: row;
+}
+
+.stext-one {
+    font-size: 18px;
+}
+
+.stext-two {
+    font-size: 12px;
+}
+
+.button-two {
+    background-color: #3882f6;
+    height: 30px;
+    width: 100px;
+    border-radius: 6px;
+    color: white;
+    border-color: white;
+    margin-left: 100px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
